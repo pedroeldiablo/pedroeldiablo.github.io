@@ -26,7 +26,7 @@ body {
   font-family: Athelas, Palatino, Georgia, serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #B54545;
+  color: #2B2826;
   background-color: #fff; }
 
 p {
@@ -108,7 +108,7 @@ code {
       .prose blockquote p {
         font-size: 32px; } }
 .prose hr {
-  color: #B54545;
+  color: #2B2826;
   border-style: solid;
   border-width: thin;
   margin-top: 0.5em;
@@ -134,13 +134,13 @@ code {
   .prose table th,
   .prose table td {
     padding: 16px 32px 16px 2px;
-    border-top: 1px solid #B54545;
-    border-bottom: 1px solid #B54545; }
+    border-top: 1px solid #2B2826;
+    border-bottom: 1px solid #2B2826; }
   .prose table tr {
-    border-top: 1px solid #B54545; }
+    border-top: 1px solid #2B2826; }
   .prose table tr th {
-    border-top: 2px solid #B54545;
-    border-bottom: 2px solid #B54545; }
+    border-top: 2px solid #2B2826;
+    border-bottom: 2px solid #2B2826; }
 
 /* Type utilities */
 .h0 {

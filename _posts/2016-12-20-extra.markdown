@@ -4,4 +4,4 @@ title:  "Test Post 2"
 date:   2016-12-20 13:07:21 +0000
 categories: jekyll update
 ---
-Some text in H2
+## Some text in H2

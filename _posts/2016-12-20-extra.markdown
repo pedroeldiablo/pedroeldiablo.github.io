@@ -5,3 +5,5 @@ date:   2016-12-20 13:07:21 +0000
 categories: jekyll update
 ---
 ## Some text in H2
+
+<h2>Can I use normal HTML markup?</h2>

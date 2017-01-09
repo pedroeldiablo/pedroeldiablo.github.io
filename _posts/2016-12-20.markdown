@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Test Post 2"
+date:   2016-12-19 13:07:21 +0000
+categories: jekyll update
+---
+## Some text in H2 

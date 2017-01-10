@@ -1,0 +1,8 @@
+---
+layout: post
+title: Posts
+permalink: /posts/
+---
+<h2>Hello these are posts</h2>
+
+Check out my [GitHub](http://github.com/pedroeldiablo) or send me an [email](mailto:pedroeldiablo@yahoo.com).

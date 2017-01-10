@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article id="main">
+
+  <header>
+    <h2>{{ page.title }}</h2>
+    <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+  </header>
+  <section class="wrapper style5">
+    <div class="inner">
+      <ol>
+        {% for project in site.projects %}
+          <li>
+            <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+          </li>
+        {% endfor %}
+      </ol>
+      <!-- {{ content }} -->
+    </div>
+  </section>
+</article>

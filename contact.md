@@ -2,6 +2,11 @@
 layout: page
 title: Contact
 ---
+<h1>Get in touch</h1>
+
+<p>Let's connect</br>
+
+Whether you're looking for a developer, know about a cool meet-up or hackathon, or are simply want to broaden your connections let's connect. </p>
 
 <ul class="icons">
   <!-- <li><a href="https://twitter.com/Pedroeldiablo82" class="icon fa-twitter" target="blank"><span class="label">Twitter</span></a></li>

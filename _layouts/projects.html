@@ -5,14 +5,19 @@ layout: default
 
   <header>
     <h2>{{ page.title }}</h2>
-    <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+    <p>Some of the projects that I have been working on</p>
   </header>
   <section class="wrapper style5">
     <div class="inner">
       <ol>
         {% for project in site.projects %}
-          <li>
-            <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
+        {% assign sorted_projects = (site.projects | sort: 'rank') %}
+        {% endfor %}
+        {% for project in sorted_projects %}
+          <li class="numberless">
+            <img src={{ project.image }}>
+            <h2><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h2>
+            <hr />
           </li>
         {% endfor %}
       </ol>

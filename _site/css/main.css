@@ -1919,6 +1919,8 @@ button,
   .wrapper > .inner {
     width: 60em;
     margin: 0 auto; }
+    .wrapper > .inner ol li.numberless {
+      list-style: none; }
     @media screen and (max-width: 1280px) {
       .wrapper > .inner {
         width: 90%; } }
@@ -2318,7 +2320,12 @@ body.is-menu-visible #menu {
       border: 0;
       display: block;
       height: inherit;
-      line-height: inherit; }
+      line-height: inherit;
+      /*text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;*/ }
+      #header h1 a:hover {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; }
+      #header h1 a.icon-fa-twitter {
+        float: right; }
       @media screen and (max-width: 736px) {
         #header h1 a {
           font-size: 0.8em; } }
@@ -2570,10 +2577,10 @@ body.is-loading #banner:after {
 /* Main */
 #main > header {
   padding: 12em 0 10em 0 ;
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-trello-2.jpeg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-trello-2.jpeg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-trello-2.jpeg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-trello-2.jpeg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2656,10 +2663,10 @@ body.is-mobile #main > header {
 
 /* Landing */
 body.landing #page-wrapper {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-wireframe.jpeg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-wireframe.jpeg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-wireframe.jpeg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-wireframe.jpeg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2672,10 +2679,10 @@ body.is-mobile.landing #page-wrapper {
   background: none; }
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-ipad.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-ipad.jpg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-ipad.jpg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/bored-ipad.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }

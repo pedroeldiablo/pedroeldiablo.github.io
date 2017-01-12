@@ -3,6 +3,7 @@ layout: project
 title:  "Event Cupid"
 subtitle: "My first group project at General Assembly"
 heroku: "https://eventcupid.herokuapp.com/"
+git: "https://github.com/pedroeldiablo/WDI-Project"
 rank: "3"
 ---
 <h3>Event Cupid</h3>

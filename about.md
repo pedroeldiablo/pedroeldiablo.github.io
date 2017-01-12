@@ -8,6 +8,8 @@ permalink: /about/
     <div class="inner">
       <h2>{{ site.title }}</h2>
       <p>{{ site.description | markdownify }}</p>
+      <p>Bearded, Lover of Maps, Data and Design</p>
+      <p>London</p>
       <!-- <ul class="actions">
         <li><a href="#" class="button special">Activate</a></li>
       </ul> -->
@@ -38,11 +40,17 @@ permalink: /about/
 
         I am looking for opportunities to apply my skills and experience and to learn, grow and develop into a better builder of beautiful, meaningful products.</p>
       </header>
-      <ul class="icons major">
+
+      <ul class="actions vertical">
+        <li><a href="/projects" class="button fit">See Projects</a></li>
+        <li><a href="/techstyling" class="button fit">Learn More</a></li>
+        <li><a href="/contact" class="button fit special">Get In Contact</a></li>
+      </ul>
+      <!-- <ul class="icons major">
         <li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
         <li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
         <li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-      </ul>
+      </ul> -->
     </div>
   </section>
 

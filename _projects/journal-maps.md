@@ -1,9 +1,10 @@
 ---
 layout: project
 title:  "Journal Maps"
-subtitle: "My first project at General Assembly"
+subtitle: "Angular Front End, Separate Rails API Back End"
 heroku: "https://seeing-red.herokuapp.com/"
 image: "/images/desktop-stops-preview.jpg"
+git: "https://github.com/pedroeldiablo/final-project-frontend-"
 rank: "1"
 ---
 <h3>Journal Maps</h3>

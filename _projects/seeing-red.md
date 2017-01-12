@@ -3,6 +3,7 @@ layout: project
 title:  "Seeing Red"
 subtitle: "My first project at General Assembly"
 heroku: "https://seeing-red.herokuapp.com/"
+git: "https://github.com/pedroeldiablo/WDI_London_Project1"
 image: "/images/seeing-red-ipad.jpeg"
 rank: "4"
 ---

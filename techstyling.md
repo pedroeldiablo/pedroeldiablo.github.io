@@ -3,14 +3,18 @@ layout: page
 title: Languages, Stacks, Frameworks and Other Tech
 ---
 <!-- <h3></h3> -->
-<!-- <h3>Front-End</h3>
-<p>From the core HTML markup, the </p>
+<h3>Front-End</h3>
+<p>From the core HTML markup, and vanilla CSS through to JavaScript, JQuery and AngularJS.</p>
 <hr />
 <h4>Styling</h4>
 <p>The box model</p>
 <p>Preprocessors such as SASS</p>
 <p>Frameworks and mixin libraries</p>
-<p>Bootstrap, Skeleton, Bourbon, Bitters and Neat</p> -->
+<p>Bootstrap, Skeleton, Bourbon, Bitters and Neat</p>
+
+<h3>Back-End</h3>
+<p>Mongo, Ruby and Ruby on Rails. PostgreSQL and MongoDB.</p>
+
 <div class="box alt">
   <div class="row uniform 20%">
     <!-- <div class="hundred"><span class="image fit"><img src="images/angular-icon.svg" alt="" />AngularJS</span></div> -->

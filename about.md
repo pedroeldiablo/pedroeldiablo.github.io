@@ -32,13 +32,19 @@ permalink: /about/
     <div class="inner">
       <header class="major">
         <h2>About Me</h2>
+        <h2>The Past</h2>
+        <h2>The Present</h2>
+
+
         <p>I’m a  junior web developer passionate about data driven design. I was driven to become a developer so that I can make ideas tangible.
 
         Having worked for and co-owned start-ups as diverse as an online bakery heading into retail, and a fertility company making the jump into digital, I love encountering a great idea and then having to craft the best way to deliver it.
 
         From gaining insights from your clients, learning about your product, and discovering from those around you which you, and then aiming to create the best solution to the challenge, then watching, improving and innovating I love the whole process.
 
-        I am looking for opportunities to apply my skills and experience and to learn, grow and develop into a better builder of beautiful, meaningful products.</p>
+        <h2>The Future</h2>
+
+        <!-- <p>I am looking for opportunities to apply my skills and experience and to learn, grow and develop into a better builder of beautiful, meaningful products.</p> -->
       </header>
 
       <ul class="actions vertical">

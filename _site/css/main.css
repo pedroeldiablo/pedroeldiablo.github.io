@@ -1086,7 +1086,7 @@ body {
 @-ms-viewport {
   width: device-width; }
 body {
-  background: #2e3842; }
+  background: #21b2a6; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -1302,7 +1302,7 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
-    box-shadow: 0 0 0 2px #21b2a6; }
+    box-shadow: 0 0 0 2px #2e3842; }
 
 .select-wrapper {
   text-decoration: none;
@@ -1388,12 +1388,12 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #2e3842;
+    background: #21b2a6;
     color: #fff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    box-shadow: 0 0 0 2px #21b2a6; }
+    box-shadow: 0 0 0 2px #2e3842; }
 
 input[type="checkbox"] + label:before {
   border-radius: 3px; }
@@ -1474,7 +1474,7 @@ input[type="radio"] + label:before {
       .icon.major {
         font-size: 1em; } }
   .icon.style1 {
-    color: #00ffcc; }
+    color: #00f0ff; }
   .icon.style2 {
     color: #00f0ff; }
   .icon.style3 {
@@ -1811,7 +1811,7 @@ button,
       background-color: rgba(0, 0, 0, 0.35); }
     .features li:before {
       display: block;
-      color: #00ffcc;
+      color: #00f0ff;
       position: absolute;
       left: 1.75em;
       top: 2.75em;
@@ -1933,7 +1933,7 @@ button,
   .wrapper.alt {
     padding: 0; }
   .wrapper.style1 {
-    background-color: #21b2a6;
+    background-color: #2e3842;
     color: #c8ece9; }
     .wrapper.style1 strong, .wrapper.style1 b {
       color: #ffffff; }
@@ -1970,7 +1970,7 @@ button,
     .wrapper.style1 input[type="checkbox"]:checked + label:before,
     .wrapper.style1 input[type="radio"]:checked + label:before {
       background: #ffffff;
-      color: #21b2a6; }
+      color: #2e3842; }
     .wrapper.style1 ::-webkit-input-placeholder {
       color: #a6e0db !important; }
     .wrapper.style1 :-moz-placeholder {
@@ -2020,7 +2020,7 @@ button,
       .wrapper.style1 .features li {
         border-top-color: rgba(0, 0, 0, 0.125); } }
   .wrapper.style2 {
-    background-color: #2e3842; }
+    background-color: #21b2a6; }
   .wrapper.style3 {
     background-color: #505393;
     color: #d3d4e4; }
@@ -2234,7 +2234,7 @@ button,
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #21b2a6;
+  background: #2e3842;
   color: #ffffff;
   height: 100%;
   max-width: 80%;
@@ -2301,7 +2301,7 @@ body.is-menu-visible #menu {
   -webkit-transition: background-color 0.2s ease;
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  background: #2e3842;
+  background: #21b2a6;
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -2435,12 +2435,18 @@ body.is-menu-visible #menu {
       height: 2px;
       position: absolute;
       width: 100%; }
+    /*#banner h2:before {
+      top: 0;
+      left: 0; }*/
     #banner h2:before {
       top: 0;
-      left: 0; }
+      right: 0; }
+    /*#banner h2:after {
+      bottom: 0;
+      right: 0; }*/
     #banner h2:after {
       bottom: 0;
-      right: 0; }
+      left: 0; }
   #banner p {
     letter-spacing: 0.225em;
     text-transform: uppercase; }
@@ -2502,7 +2508,7 @@ body.is-menu-visible #menu {
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
     content: '';
-    background: #2e3842;
+    background: #21b2a6;
     display: block;
     width: 100%;
     height: 100%;
@@ -2621,7 +2627,7 @@ body.is-mobile #main > header {
 /* Footer */
 #footer {
   padding: 6em 0 4em 0 ;
-  background-color: #1d242a;
+  background-color: #1b9086;
   text-align: center; }
   #footer .icons {
     font-size: 1.25em; }
@@ -2676,7 +2682,7 @@ body.landing #page-wrapper {
   background-size: cover;
   padding-top: 0; }
 body.landing #footer {
-  background-color: rgba(29, 36, 42, 0.9); }
+  background-color: rgba(27, 144, 134, 0.9); }
 
 body.is-mobile.landing #page-wrapper {
   background: none; }
@@ -2690,7 +2696,7 @@ body.is-mobile.landing .wrapper.style4 {
   background-repeat: no-repeat;
   background-size: cover; }
 body.is-mobile.landing #footer {
-  background-color: #1d242a; }
+  background-color: #1b9086; }
 
 .hundred {
   height: 250px;

@@ -865,6 +865,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.special {
 			background-color: _palette(accent6, bg);
+      // background-image: linear-gradient(to left, #23ce42, #3396fc, #d111f0, #FF3052);
 			box-shadow: none !important;
 			color: _palette(accent6, fg-bold) !important;
 
@@ -1535,7 +1536,8 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			&:before {
 				top: 0;
-				left: 0;
+        right: 0
+				// left: 0;
 			}
 
 			&:after {

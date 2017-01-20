@@ -21,7 +21,7 @@ layout: landing
 
 <!-- One -->
   <section id="one" class="wrapper style1 special">
-    <div class="inner">
+    <div class="inner logo">
       <header class="major">
         <h2>About Me</h2>
         <p>I’m a  junior web developer passionate about data driven design. I was driven to become a developer so that I can make ideas tangible.

@@ -2435,18 +2435,13 @@ body.is-menu-visible #menu {
       height: 2px;
       position: absolute;
       width: 100%; }
-    /*#banner h2:before {
-      top: 0;
-      left: 0; }*/
     #banner h2:before {
       top: 0;
-      right: 0; }
-    /*#banner h2:after {
-      bottom: 0;
-      right: 0; }*/
+      /*left: 0;*/
+      right: 0;  }
     #banner h2:after {
       bottom: 0;
-      left: 0; }
+      right: 0; }
   #banner p {
     letter-spacing: 0.225em;
     text-transform: uppercase; }
@@ -2702,3 +2697,20 @@ body.is-mobile.landing #footer {
   height: 250px;
   max-width: 100px;
   float: left; }
+
+.logo h1 {
+  color: #2e4f96;
+  position: absolute;
+  left: 20px;
+  top: -10px;
+  font-size: 90px;
+  font-family: 'Varela Round', sans-serif;
+  background-image: linear-gradient(to left, #23ce42, #3396fc, #d111f0, #FF3052);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-right: 20px;
+  letter-spacing: -18px; }

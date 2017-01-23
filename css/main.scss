@@ -1534,6 +1534,18 @@ $baseurl: '{{ site.baseurl }}/images';
 				width: 100%;
 			}
 
+      &:before {
+				@include vendor('transition', 'width 0.85s ease');
+				@include vendor('transition-delay', '0.25s');
+				background: black;
+				content: '';
+				display: block;
+				height: 2px;
+				position: absolute;
+				width: 100%;
+			}
+
+
 			&:before {
 				top: 0;
         right: 0

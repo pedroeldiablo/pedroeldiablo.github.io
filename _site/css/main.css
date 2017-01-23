@@ -2301,7 +2301,6 @@ body.is-menu-visible #menu {
   -webkit-transition: background-color 0.2s ease;
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  background: #21b2a6;
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -2404,7 +2403,8 @@ body.is-menu-visible #menu {
   min-height: 35em;
   overflow: hidden;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  background-image: linear-gradient(to right, #23ce42, #3396fc, #d111f0, #FF3052); }
   #banner h2 {
     -moz-transform: scale(1);
     -webkit-transform: scale(1);
@@ -2420,7 +2420,22 @@ body.is-menu-visible #menu {
     padding: 0.35em 1em;
     position: relative;
     z-index: 1; }
-    #banner h2:before, #banner h2:after {
+    #banner h2:before {
+      -moz-transition: width 0.85s ease;
+      -webkit-transition: width 0.85s ease;
+      -ms-transition: width 0.85s ease;
+      transition: width 0.85s ease;
+      -moz-transition-delay: 0.25s;
+      -webkit-transition-delay: 0.25s;
+      -ms-transition-delay: 0.25s;
+      transition-delay: 0.25s;
+      background: black;
+      content: '';
+      display: block;
+      height: 2px;
+      position: absolute;
+      width: 100%; }
+    #banner h2:after {
       -moz-transition: width 0.85s ease;
       -webkit-transition: width 0.85s ease;
       -ms-transition: width 0.85s ease;

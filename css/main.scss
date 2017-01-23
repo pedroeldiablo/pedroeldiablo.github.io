@@ -1390,7 +1390,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
-		background: _palette(bg);
+		// background: _palette(bg);
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -1512,6 +1512,16 @@ $baseurl: '{{ site.baseurl }}/images';
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+    background-image: linear-gradient(to right, #23ce42, #3396fc, #d111f0, #FF3052);
+    // background-image: linear-gradient(to right, #FF3052, #d111f0, #d111f0, #FF3052);
+    // background-image: linear-gradient(to left, #3396fc, #d111f0, #FF3052);
+    // background-image: linear-gradient(to right, #23ce42, #3396fc, #FF3052);
+    // background-image: linear-gradient(to left, #d111f0, #FF3052);
+    // background-image: linear-gradient(to left, #23ce42, #3396fc);
+    // background-image: linear-gradient(to bottom, #000000, #2e3842, #21b2a6);
+
+
+
 
 		h2 {
 			@include vendor('transform', 'scale(1)');
@@ -1523,10 +1533,26 @@ $baseurl: '{{ site.baseurl }}/images';
 			position: relative;
 			z-index: 1;
 
-			&:before, &:after {
+			// &:before, &:after {
+      &:before {
 				@include vendor('transition', 'width 0.85s ease');
 				@include vendor('transition-delay', '0.25s');
+        // background-image: linear-gradient(to left, #23ce42, #3396fc, #d111f0, #FF3052);
+				// background: _palette(fg-bold);
+        background: black;
+				content: '';
+				display: block;
+				height: 2px;
+				position: absolute;
+				width: 100%;
+			}
+
+      &:after {
+				@include vendor('transition', 'width 0.85s ease');
+				@include vendor('transition-delay', '0.25s');
+        // background-image: linear-gradient(to left, #23ce42, #3396fc, #d111f0, #FF3052);
 				background: _palette(fg-bold);
+        // background: black;
 				content: '';
 				display: block;
 				height: 2px;

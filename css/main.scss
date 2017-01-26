@@ -1512,6 +1512,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+    background-image: linear-gradient(to right, #361d21, #966558, #d2a392, #f9e1d0, #fcf7f6);
     // background-image: linear-gradient(to right, #23ce42, #3396fc, #d111f0, #FF3052);
     // background-image: linear-gradient(to right, #FF3052, #d111f0, #d111f0, #FF3052);
     // background-image: linear-gradient(to left, #3396fc, #d111f0, #FF3052);

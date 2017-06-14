@@ -2,7 +2,7 @@
 layout: project
 title:  "Journal Maps"
 subtitle: "Angular Front End, Separate Rails API Back End"
-heroku: "https://seeing-red.herokuapp.com/"
+heroku: "https://journal-maps.herokuapp.com/#/login"
 image: "/images/desktop-stops-preview.jpg"
 git: "https://github.com/pedroeldiablo/final-project-frontend-"
 rank: "1"

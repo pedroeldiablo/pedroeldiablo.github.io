@@ -1959,6 +1959,8 @@ button,
     margin: 0 auto; }
     .wrapper > .inner ol li.numberless {
       list-style: none; }
+    .wrapper > .inner img {
+      width: 100%; }
     @media screen and (max-width: 1280px) {
       .wrapper > .inner {
         width: 90%; } }

@@ -1265,6 +1265,10 @@ button,
 			}
 		}
 
+		img {
+			width: 100%;
+		}
+
 		@include breakpoint(large) {
 			width: 90%;
 		}

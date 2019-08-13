@@ -22,9 +22,9 @@ title: Languages, Stacks, Frameworks and Other Tech
 </section>
 
 
-<div class="box alt">
+<!-- <div class="box alt">
   <div class="row uniform 20%">
-    <!-- <div class="hundred"><span class="image fit"><img src="images/angular-icon.svg" alt="" />AngularJS</span></div> -->
+   <div class="hundred"><span class="image fit"><img src="images/angular-icon.svg" alt="" />AngularJS</span></div> 
     <div class="hundred"><span class="image fit"><img src="images/angular-icon.svg" alt="" />AngularJS</span></div>
     <div class="hundred"><span class="image fit"><img src="images/atom.svg" alt="" />ATOM</span></div>
     <div class="hundred"><span class="image fit"><img src="images/aws.svg" alt="" />Amazon Web Services</span></div>
@@ -62,4 +62,4 @@ title: Languages, Stacks, Frameworks and Other Tech
     <div class="hundred"><span class="image fit"><img src="images/trello.svg" alt="" />Trello</span></div>
     <div class="hundred"><span class="image fit"><img src="images/wordpress-icon.svg" alt="" />WordPress</span></div>
   </div>
-</div>
+</div> -->

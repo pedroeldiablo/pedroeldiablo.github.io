@@ -6,7 +6,7 @@ title: Languages, Stacks, Frameworks and Other Tech
 
 <section id="banner">
   <div class="inner">
-    <h3>Front-End</h3>
+    <h4>Front-End</h4>
     <p>From the core HTML markup, and vanilla CSS through to JavaScript, JQuery and AngularJS.</p>
     <hr>
     <h4>Styling</h4>

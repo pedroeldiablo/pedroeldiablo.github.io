@@ -11,7 +11,7 @@ layout: default
     <div class="inner">
       <ol>
         {% for project in site.projects %}
-        {% assign sorted_projects = (site.projects | sort: 'rank') %}
+        {% assign sorted_projects = site.projects | sort: 'rank' %}
         {% endfor %}
         {% for project in sorted_projects %}
           <li class="numberless">

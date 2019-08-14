@@ -24,7 +24,7 @@ github_username:  github.com/pedroeldiablo
 # Build settings
 markdown: kramdown
 theme: jekyll-athena
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile

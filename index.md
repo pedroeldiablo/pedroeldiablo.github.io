@@ -24,18 +24,10 @@ layout: landing
     <div class="inner logo">
       <header class="major">
         <h2>About Me</h2>
-        <p>I’m a  junior web developer passionate about data driven design. I was driven to become a developer so that I can make ideas tangible.
-
-        Having worked for and co-owned start-ups as diverse as an online bakery heading into retail, and a fertility company making the jump into digital, I love encountering a great idea and then having to craft the best way to deliver it.
-
-        From gaining insights from your clients, learning about your product, and discovering from those around you which you, and then aiming to create the best solution to the challenge, then watching, improving and innovating I love the whole process.
-
-        I am looking for opportunities to apply my skills and experience and to learn, grow and develop into a better builder of beautiful, meaningful products.</p>
-      </header>
-      <!-- <ul class="icons major">
-        <li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-        <li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-        <li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
-      </ul> -->
-    </div>
+        </header>
+        <div class="inner">
+        <p>I’m a web developer passionate about data driven design.</p>
+        <p>I am looking for opportunities to apply my skills and experience and to learn, grow and develop into a better builder of beautiful, meaningful products.</p>
+      </div>
+     </div>
   </section>
